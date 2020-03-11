@@ -14,6 +14,10 @@ public class Action extends CoffeeMachine {
                 case "remaining":
                     Remaining();
                     break;
+
+                case "buy":
+                    Buy();
+                    break;
             }
         }
     }
