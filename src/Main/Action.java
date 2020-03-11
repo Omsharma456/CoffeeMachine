@@ -9,6 +9,7 @@ public class Action extends CoffeeMachine {
         while (true) {
             Scanner sc = new Scanner(System.in);
             System.out.println("\nWrite action (buy, fill, take, remaining, exit):");
+            String choose = sc.next();
         }
     }
 }
