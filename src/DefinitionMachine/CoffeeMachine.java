@@ -62,4 +62,8 @@ public class CoffeeMachine {
                 break;
         }
     }
+
+    public static void Fill() {
+
+    }
 }
