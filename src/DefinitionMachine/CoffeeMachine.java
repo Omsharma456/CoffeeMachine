@@ -66,5 +66,7 @@ public class CoffeeMachine {
     public static void Fill() {
         System.out.println("\nWrite how many ml of water do you want to add:");
         InitialWater += sc.nextInt();
+        System.out.println("Write how many ml of milk do you want to add:");
+        InitialMilk += sc.nextInt();
     }
 }
