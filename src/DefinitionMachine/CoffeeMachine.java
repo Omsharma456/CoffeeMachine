@@ -8,4 +8,5 @@ public class CoffeeMachine {
     public static int InitialMilk = 540;
     public static int InitialBeans = 120;
     public static int disposable_cups = 9;
+    public static int totalMoney = 550;
 }
