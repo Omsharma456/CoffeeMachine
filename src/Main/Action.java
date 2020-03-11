@@ -11,7 +11,9 @@ public class Action extends CoffeeMachine {
             System.out.println("\nWrite action (buy, fill, take, remaining, exit):");
             String choose = sc.next();
             switch (choose) {
-
+                case "remaining":
+                    Remaining();
+                    break;
             }
         }
     }
