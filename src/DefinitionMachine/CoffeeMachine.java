@@ -73,4 +73,9 @@ public class CoffeeMachine {
         System.out.println("Write how many disposable cup of coffee do you want to add:");
         disposable_cups += sc.nextInt();
     }
+
+    public static void Take() {
+        System.out.println("I gave you $" + totalMoney);
+        totalMoney -= totalMoney;
+    }
 }
