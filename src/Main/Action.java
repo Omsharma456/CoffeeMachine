@@ -4,6 +4,8 @@ import DefinitionMachine.CoffeeMachine;
 
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 public class Action extends CoffeeMachine {
     public static void main(String[] args) {
         while (true) {
@@ -25,6 +27,10 @@ public class Action extends CoffeeMachine {
 
                 case "take":
                     Take();
+                    break;
+
+                case "exit":
+                    exit(0);
                     break;
 
             }
