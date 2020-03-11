@@ -70,5 +70,7 @@ public class CoffeeMachine {
         InitialMilk += sc.nextInt();
         System.out.println("Write how many ml of coffee beans do you want to add:");
         InitialBeans += sc.nextInt();
+        System.out.println("Write how many disposable cup of coffee do you want to add:");
+        disposable_cups += sc.nextInt();
     }
 }
