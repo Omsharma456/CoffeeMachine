@@ -23,6 +23,10 @@ public class Action extends CoffeeMachine {
                     Fill();
                     break;
 
+                case "take":
+                    Take();
+                    break;
+
             }
         }
     }
